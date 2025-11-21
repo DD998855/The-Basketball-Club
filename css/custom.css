@@ -171,7 +171,7 @@ header nav a.active {
 
 /* Hero section */
 #hero-image {
-  background: url('../img/1backgound.jpg') no-repeat center center/cover;
+  background: url('../img/1.png') no-repeat center center/cover;
   height: 95vh;
   margin: 0;
   display: flex;
@@ -266,7 +266,7 @@ footer {
 }
 
 footer img {
-  width: 160px;
+  width: 300px;
 }
 
 footer hr {
@@ -301,6 +301,10 @@ footer nav, footer p {
   footer img {
     margin: 0 auto;
   }
+}
+
+footer .email {
+  text-align: right;
 }
 
 /* ==========================================================================
@@ -394,4 +398,21 @@ hr {
   color: var(--primary-25);
   font-style: normal;
   font-weight: 500;
+}
+
+
+#quote-image {
+  background: url('../img/6.png') no-repeat center center/cover;
+  height: 30vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing8x3);
+}
+
+.logoimg{
+  width: 300px;
+
 }
