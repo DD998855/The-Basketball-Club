@@ -30,24 +30,29 @@ Experiment with colors, typography, spacing, and component styles.
    ========================================================================== */
 
 body {
-  color: var(--primary-80);
+  color:#404040;
   /* font-family is set in framework.css but you can override it here if needed */
 }
 
 /* Heading Styles - Customize sizes, colors, spacing */
 h1, h2, h3, h4, h5, h6 { 
   line-height: 1.1;
-  color: var(--primary-80);
+  color: #900B09;
+  font-family: "Krona One", serif;
   /* Add your custom heading styles here */
 }
 
 h1 { 
-  font-size: 90px;
+  font-size: 80px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 4px #404040;
   /* Try adding: font-weight, color, text-transform, etc. */
 }
 
 h2 { 
   font-size: 42px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 4px #b5b5b5;
 }
 
 
@@ -58,6 +63,7 @@ h3 {
 
 h4 { 
   font-size: 24px;
+
 }
 
 h5 { 
@@ -72,7 +78,9 @@ h6 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--primary-80);
+padding-top: 10px;
+padding-bottom: 10px;
+  color: #404040;
   /* Try adjusting: line-height, letter-spacing, margin-bottom */
 }
 
@@ -104,7 +112,7 @@ section div+div {
 /* Basic Link Styles */
 a {
   text-decoration: none;
-  color: var(--primary-80);
+  color: #900B09;
   transition: all 300ms;
   /* Try adding: border-bottom, font-weight changes, etc. */
 }
@@ -117,7 +125,7 @@ a:hover {
 /* Button Styles - Customize your call-to-action buttons */
 a.button {
   border-radius: 50px;
-  border: 2px solid var(--primary-80);
+  border: 2px solid #900B09;
   padding: 10px 20px 8px;
   display: inline-block;
   margin-top: var(--spacing8x2);
@@ -141,7 +149,29 @@ a.button-highlight {
   border: 1.5px solid var(--highlight-color);
   color: white;
 }
+.button1 {
+  background-color:#900B09;
+  color: white;
+   border-radius: 50px;
+   font-size: 30px;
+  padding: 10px 20px 8px;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(61, 61, 61, 0.6);
 
+  margin-top: var(--spacing8x2);
+}
+
+.button2 {
+  background-color:#900B09;
+  color: white;
+   border-radius: 50px;
+   font-size: 30px;
+  padding: 10px 20px 8px;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(61, 61, 61, 0.6);
+
+  margin-top: var(--spacing8x2);
+}
 /* ==========================================================================
    LAYOUT SECTIONS - CUSTOMIZE PAGE STRUCTURE
    ========================================================================== */
@@ -227,7 +257,7 @@ header nav a.active {
 }
 
 .callout-image {
-  background: url('../img/placeholder_bg.png') no-repeat center center/cover;
+  background: url('../img/21.png') no-repeat center center/cover;
   width: 100%;
   height: 100%;
   min-height: 700px;
@@ -252,14 +282,14 @@ header nav a.active {
 }
 
 section p + a.button {
-  margin-top: var(--spacing8x12);
+  margin: top 20px;
 }
 
 
 /* Footer Styles */
 footer {
   width: 100%;
-  background: var(--primary-100);
+  background: var(--white);
   color: var(--white);
   padding: 40px 20px 20px;
   /* Try customizing: background gradients, text alignment, etc. */
@@ -276,7 +306,7 @@ footer hr {
 }
 
 footer a, footer p {
-  color: var(--secondary-color);
+  color: #900B09;
   font-size: 12px;
 }
 
@@ -333,11 +363,11 @@ hr {
 
 /* Icon with Text Component */
 .icon-with-text i {
-  background: var(--grey);
+  background: #900B09;
   padding: 17px 16px 23px;
   border-radius: 200px;
   font-size: 30px;
-  color: var(--primary-80);
+  color: #900B09;
   /* Try customizing: colors, sizing, border-radius, box-shadow */
 }
 
@@ -404,6 +434,18 @@ hr {
 #quote-image {
   background: url('../img/6.png') no-repeat center center/cover;
   height: 30vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing8x3);
+}
+
+
+#team-image {
+  background: url('../img/7.png') no-repeat center center/cover;
+  height: 50vh;
   margin: 0;
   display: flex;
   flex-direction: column;
