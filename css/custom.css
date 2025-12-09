@@ -321,8 +321,12 @@ footer nav a + a {
   margin-left: 40px;
 }
 
-footer nav, footer p {
+footer p {
   text-align: right;
+}
+
+footer nav  {
+  text-align: center;
 }
 
 /* Mobile Footer Adjustments */
