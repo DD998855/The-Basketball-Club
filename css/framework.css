@@ -407,7 +407,7 @@ section {
   position: absolute;
   height: var(--spacing4x1);
   width: 100%;
-  background-color: var(--primary-100);
+  background-color:#404040;
   border-radius: var(spacing4x1);
   transition: all 0.3s ease-in-out;
 }
@@ -423,7 +423,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--primary-100);
+  background-color:#fff;
   z-index: 1000;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
@@ -437,11 +437,11 @@ section {
 }
 
 .mobile-nav nav a {
-  color: white;
+  color:#900B09;
   text-decoration: none;
   font-size: 25px;
   display: block;
-  border-bottom: 1.5px solid #ebeff4;
+  border-bottom: 1.5px solid #900B09;
   padding: 20px 0;
 }
 

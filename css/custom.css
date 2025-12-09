@@ -165,7 +165,7 @@ a.button-highlight {
 }
 
 .button2 {
-  background-color:#900B09;
+  background-color:hsl(1, 88%, 30%);
   color: white;
    border-radius: 50px;
    font-size: 20px;
